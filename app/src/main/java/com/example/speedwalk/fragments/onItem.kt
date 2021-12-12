@@ -1,0 +1,82 @@
+package com.example.speedwalk.fragments
+
+import android.app.Dialog
+import android.content.Context
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.os.Bundle
+import android.view.*
+import androidx.fragment.app.Fragment
+import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.widget.AppCompatButton
+import androidx.navigation.fragment.findNavController
+import com.example.speedwalk.R
+
+
+class onItem : Fragment() {
+
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_on_item, container, false)
+        val back =view.findViewById<ImageView>(R.id.go_back)
+        back.setOnClickListener { findNavController().navigate(R.id.action_onItem_to_menu) }
+
+        val one = view.findViewById<FrameLayout>(R.id.one)
+        val two = view.findViewById<FrameLayout>(R.id.two)
+        val three =view.findViewById<FrameLayout>(R.id.three)
+        val four = view.findViewById<FrameLayout>(R.id.four)
+
+        one.setOnClickListener { showDialog() }
+        two.setOnClickListener { showDialog() }
+        three.setOnClickListener { showDialog() }
+        four.setOnClickListener { showDialog() }
+
+        val first = view.findViewById<FrameLayout>(R.id.first)
+        val second = view.findViewById<FrameLayout>(R.id.second)
+        val third = view.findViewById<FrameLayout>(R.id.third)
+        val fourth = view.findViewById<FrameLayout>(R.id.fourth)
+
+        first.setOnClickListener { showDialog() }
+        second.setOnClickListener { showDialog() }
+        third.setOnClickListener { showDialog() }
+        fourth.setOnClickListener { showDialog() }
+
+        return view
+    }
+
+    private fun showDialog() {
+        var count = 1
+        val dialog = Dialog(requireContext())
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dialog.setContentView(R.layout.bottom_sheet)
+        dialog.window!!.setLayout(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT
+        )
+        val cart = dialog.findViewById<AppCompatButton>(R.id.cart)
+        val minus = dialog.findViewById<AppCompatButton>(R.id.minus)
+        val plus = dialog.findViewById<AppCompatButton>(R.id.plus)
+        val text = dialog.findViewById<TextView>(R.id.text)
+        minus.setOnClickListener {
+            count--
+            text.text = "$count шт"
+        }
+        plus.setOnClickListener {
+            count++
+            text.text = "$count шт"
+        }
+        cart.setOnClickListener { findNavController().navigate(R.id.action_onItem_to_cart2) }
+        dialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        dialog.window!!.attributes.windowAnimations = R.style.DialogAnimation
+        dialog.window!!.setGravity(Gravity.BOTTOM)
+
+        dialog.show()
+    }
+
+
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:background="#F6F6F6"
+             tools:context=".fragments.OrderOnClick">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:layout_marginTop="32dp"
+               android:id="@+id/back"
+               android:layout_marginStart="22dp"
+               app:srcCompat="@drawable/right_arrow_1"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Заказ #232218"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:fontFamily="@font/roboto"
+              android:layout_marginTop="26dp"
+              android:layout_marginStart="54dp"
+              android:textColor="#C4C4C4"/>
+
+
+    <ImageView
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="28dp"
+            android:id="@+id/menu"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cancel__1__2"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="644,97 ₽ "
+              android:layout_marginTop="98dp"
+              android:layout_marginStart="24dp"
+              android:textColor="@color/black"
+              android:fontFamily="@font/helvetica_regular"
+              android:textStyle="bold"
+              android:textSize="14sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Повторить заказ"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="14sp"
+              android:textColor="#CA0000"
+              android:layout_marginTop="98dp"
+              android:layout_marginEnd="26dp"
+              android:layout_gravity="end"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="3 позиции"
+              android:layout_marginTop="117dp"
+              android:layout_marginStart="24dp"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="12sp"
+              android:textColor="#909090"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Тучков переулок, 3"
+              android:textColor="#909090"
+              android:layout_marginTop="133dp"
+              android:layout_marginStart="24dp"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="12sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="29.02.2021"
+              android:layout_marginEnd="26dp"
+              android:layout_marginTop="117dp"
+              android:layout_gravity="end"
+              android:textColor="#909090"
+              android:textSize="12sp"
+              android:fontFamily="@font/helvetica_regular"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="12:45"
+              android:textColor="#909090"
+              android:layout_marginTop="133dp"
+              android:layout_marginEnd="26dp"
+              android:layout_gravity="end"
+              android:fontFamily="@font/helvetica_regular"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="3 товара"
+              android:textColor="@color/black"
+              android:fontFamily="@font/helvetica_regular"
+              android:textStyle="bold"
+              android:layout_marginTop="163dp"
+              android:layout_marginStart="24dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginTop="195dp"
+                  android:layout_marginStart="21dp"
+                  android:orientation="vertical"
+                  android:layout_marginEnd="30dp"
+                  android:layout_marginBottom="228dp">
+
+
+
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="100dp">
+            <View android:alpha="0.4" android:layout_width="match_parent" android:layout_height="0.5dp"
+                  android:background="#797979"/>
+            <ImageView android:layout_width="14dp" android:layout_height="14dp"
+                       android:background="@drawable/more_1"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="14dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Чай Greenfield Spring Melody\n100 гр"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"
+                      android:layout_marginTop="9dp"
+                      android:layout_marginStart="62dp"/>
+
+            <ImageView android:layout_width="63dp" android:layout_height="63dp"
+                       android:background="@drawable/pngegg__10__4"
+                       android:layout_marginTop="9dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="1 шт / 214.99₽"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="9sp"
+                      android:textColor="#797979"
+                      android:layout_marginTop="50dp"
+                      android:layout_marginStart="62dp"/>
+
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="214.99 ₽"
+                      android:fontFamily="@font/roboto"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:textColor="#333333"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginEnd="2dp"
+                      android:layout_gravity="end"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="10 шт"
+                      android:textColor="#333333"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="14sp"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginStart="64dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="100dp">
+            <View android:alpha="0.4" android:layout_width="match_parent" android:layout_height="0.5dp"
+                  android:background="#797979"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Чай Greenfield Spring Melody\n100 гр"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"
+                      android:layout_marginTop="9dp"
+                      android:layout_marginStart="62dp"/>
+            <ImageView android:layout_width="14dp" android:layout_height="14dp"
+                       android:background="@drawable/more_1"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="14dp"/>
+            <ImageView android:layout_width="63dp" android:layout_height="63dp"
+                       android:background="@drawable/pngegg__10__4"
+                       android:layout_marginTop="9dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="1 шт / 214.99₽"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="9sp"
+                      android:textColor="#797979"
+                      android:layout_marginTop="50dp"
+                      android:layout_marginStart="62dp"/>
+
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="214.99 ₽"
+                      android:fontFamily="@font/roboto"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:textColor="#333333"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginEnd="2dp"
+                      android:layout_gravity="end"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="3 шт"
+                      android:textColor="#333333"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="14sp"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginStart="64dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="100dp">
+            <View android:alpha="0.4" android:layout_width="match_parent" android:layout_height="0.5dp"
+                  android:background="#797979"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Чай Greenfield Spring Melody\n100 гр"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"
+                      android:layout_marginTop="9dp"
+                      android:layout_marginStart="62dp"/>
+
+            <ImageView android:layout_width="63dp" android:layout_height="63dp"
+                       android:background="@drawable/pngegg__10__4"
+                       android:layout_marginTop="9dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="1 шт / 214.99₽"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="9sp"
+                      android:textColor="#797979"
+                      android:layout_marginTop="50dp"
+                      android:layout_marginStart="62dp"/>
+
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="214.99 ₽"
+                      android:fontFamily="@font/roboto"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:textColor="#333333"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginEnd="2dp"
+                      android:layout_gravity="end"/>
+            <ImageView android:layout_width="14dp" android:layout_height="14dp"
+                       android:background="@drawable/more_1"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="14dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="1 шт"
+                      android:textColor="#333333"
+                      android:fontFamily="@font/roboto"
+                      android:textSize="14sp"
+                      android:layout_marginTop="76dp"
+                      android:layout_marginStart="64dp"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

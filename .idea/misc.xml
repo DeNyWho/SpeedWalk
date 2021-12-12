@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/apple.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/arrow_8.xml" value="0.403125" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_btn_white.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_button.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_buy.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_buy_in.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_buy_off.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_card_buy.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_card_in.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_menu.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_menu_in.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_menu_off.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_reg.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/back_upres.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/bg_grey.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/bg_orange.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/bottom_map.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/bottom_shi5t.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/btn_cart.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/btn_go_cart.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/btn_item.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/buy_card.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/circle.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/custom_switch_thumb.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/custom_switch_track.xml" value="0.39487179487179486" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/item_back.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/lastorderbtn.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/lastorderin.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/menu_items.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/or_btn.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/pres.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/shape.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/shape_cursor.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/shape_two.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/supportback.xml" value="0.37407407407407406" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/vector.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/drawable/verification_bg.xml" value="0.3958974358974359" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/font/font.xml" value="0.31203703703703706" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/buy_card.xml" value="0.22" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/code_accept.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_back_menu.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_buy_card.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_buy_list.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_buy_list2.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_cart.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_code_accept.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_delivery.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_dialog.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_last_orders.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_map_order.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_menu.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_menu_back.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_number_phone.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_on_item.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_order_done.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_order_on_click.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_page_reg.xml" value="0.22" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_service.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/fragment_support.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Downloads/SpeedWalk/app/src/main/res/layout/supportback.xml" value="0.28940217391304346" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="azul-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

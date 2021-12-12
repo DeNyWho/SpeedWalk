@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/my_nav"
+            app:startDestination="@id/splashScreen">
+    <fragment android:id="@+id/splashScreen" android:name="com.example.speedwalk.fragments.SplashScreen"
+              android:label="fragment_splash_screen" tools:layout="@layout/fragment_splash_screen">
+        <action android:id="@+id/action_splashScreen_to_numberPhone2" app:destination="@id/numberPhone2"/>
+    </fragment>
+    <fragment android:id="@+id/numberPhone2" android:name="com.example.speedwalk.fragments.NumberPhone"
+              android:label="fragment_number_phone" tools:layout="@layout/fragment_number_phone">
+        <action android:id="@+id/action_numberPhone2_to_codeAccept" app:destination="@id/codeAccept"/>
+    </fragment>
+    <fragment android:id="@+id/codeAccept" android:name="com.example.speedwalk.fragments.CodeAccept"
+              android:label="fragment_code_accept" tools:layout="@layout/fragment_code_accept">
+        <action android:id="@+id/action_codeAccept_to_page_reg" app:destination="@id/page_reg"/>
+    </fragment>
+    <fragment android:id="@+id/page_reg" android:name="com.example.speedwalk.fragments.page_reg"
+              android:label="fragment_page_reg" tools:layout="@layout/fragment_page_reg">
+        <action android:id="@+id/action_page_reg_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/menu" android:name="com.example.speedwalk.fragments.Menu" android:label="fragment_menu"
+              tools:layout="@layout/fragment_menu">
+        <action android:id="@+id/action_menu_to_backMenu" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_menu_to_onItem" app:destination="@id/onItem"/>
+        <action android:id="@+id/action_menu_to_cart" app:destination="@id/cart"/>
+    </fragment>
+    <fragment android:id="@+id/backMenu" android:name="com.example.speedwalk.fragments.BackMenu"
+              android:label="fragment_back_menu" tools:layout="@layout/fragment_back_menu">
+        <action android:id="@+id/action_backMenu_to_cart" app:destination="@id/cart"/>
+        <action android:id="@+id/action_backMenu_to_delivery" app:destination="@id/delivery"/>
+        <action android:id="@+id/action_backMenu_to_service" app:destination="@id/service"/>
+        <action android:id="@+id/action_backMenu_to_lastOrders" app:destination="@id/lastOrders"/>
+        <action android:id="@+id/action_backMenu_to_support" app:destination="@id/support"/>
+    </fragment>
+    <fragment android:id="@+id/onItem" android:name="com.example.speedwalk.fragments.onItem"
+              android:label="fragment_on_item" tools:layout="@layout/fragment_on_item">
+        <action android:id="@+id/action_onItem_to_menu" app:destination="@id/menu"/>
+        <action android:id="@+id/action_onItem_to_dialog" app:destination="@id/dialog"/>
+        <action android:id="@+id/action_onItem_to_dialog2" app:destination="@id/dialog"/>
+    </fragment>
+    <action android:id="@+id/action_onItem_to_cart2" app:destination="@id/cart"/>
+
+    <fragment android:id="@+id/cart" android:name="com.example.speedwalk.fragments.cart" android:label="fragment_cart"
+              tools:layout="@layout/fragment_cart">
+        <action android:id="@+id/action_cart_to_buy_list" app:destination="@id/buy_list"/>
+    </fragment>
+    <fragment android:id="@+id/buy_list" android:name="com.example.speedwalk.fragments.buy_list"
+              android:label="fragment_buy_list" tools:layout="@layout/fragment_buy_list">
+        <action android:id="@+id/action_buy_list_to_buyCard" app:destination="@id/buyCard"/>
+        <action android:id="@+id/action_buy_list_to_cart" app:destination="@id/cart"/>
+    </fragment>
+    <fragment android:id="@+id/orderOnClick" android:name="com.example.speedwalk.fragments.OrderOnClick"
+              android:label="fragment_order_on_click" tools:layout="@layout/fragment_order_on_click">
+        <action android:id="@+id/action_orderOnClick_to_lastOrders" app:destination="@id/lastOrders"/>
+        <action android:id="@+id/action_orderOnClick_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/delivery" android:name="com.example.speedwalk.fragments.Delivery"
+              android:label="fragment_delivery" tools:layout="@layout/fragment_delivery">
+        <action android:id="@+id/action_delivery_to_backMenu" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_delivery_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/lastOrders" android:name="com.example.speedwalk.fragments.LastOrders"
+              android:label="fragment_last_orders" tools:layout="@layout/fragment_last_orders">
+        <action android:id="@+id/action_lastOrders_to_backMenu" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_lastOrders_to_menu" app:destination="@id/menu"/>
+        <action android:id="@+id/action_lastOrders_to_orderOnClick" app:destination="@id/orderOnClick"/>
+    </fragment>
+    <fragment android:id="@+id/mapOrder" android:name="com.example.speedwalk.fragments.MapOrder"
+              android:label="fragment_map_order" tools:layout="@layout/fragment_map_order">
+        <action android:id="@+id/action_mapOrder_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/order_done" android:name="com.example.speedwalk.fragments.order_done"
+              android:label="fragment_order_done" tools:layout="@layout/fragment_order_done">
+        <action android:id="@+id/action_order_done_to_mapOrder" app:destination="@id/mapOrder"/>
+        <action android:id="@+id/action_order_done_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/service" android:name="com.example.speedwalk.fragments.Service"
+              android:label="fragment_service" tools:layout="@layout/fragment_service">
+        <action android:id="@+id/action_service_to_backMenu" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_service_to_backMenu2" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_service_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/support" android:name="com.example.speedwalk.fragments.Support"
+              android:label="fragment_support" tools:layout="@layout/fragment_support">
+        <action android:id="@+id/action_support_to_backMenu" app:destination="@id/backMenu"/>
+        <action android:id="@+id/action_support_to_menu" app:destination="@id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/buyCard" android:name="com.example.speedwalk.fragments.BuyCard"
+              android:label="fragment_buy_card" tools:layout="@layout/fragment_buy_card">
+        <action android:id="@+id/action_buyCard_to_order_done" app:destination="@id/order_done"/>
+        <action android:id="@+id/action_buyCard_to_buy_list" app:destination="@id/buy_list"/>
+    </fragment>
+    <fragment android:id="@+id/dialog" android:name="com.example.speedwalk.fragments.Dialog"
+              android:label="fragment_dialog" tools:layout="@layout/fragment_dialog">
+        <action android:id="@+id/action_dialog_to_cart" app:destination="@id/cart"/>
+    </fragment>
+</navigation>

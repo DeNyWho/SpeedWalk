@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="#F4F4F4"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.CodeAccept">
+
+    <com.zjh.verification.VerificationCodeEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"
+            android:textSize="24sp"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="center_horizontal"
+            app:cursorDrawable="@drawable/shape_cursor"
+            app:cursorDrawableHeight="25dp"
+            app:cursorDrawableWidth="1dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verificationEdit"
+            app:space="21dp"
+            app:textBackground="@drawable/verification_bg" />
+
+    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+               android:background="@drawable/left"
+               android:id="@+id/back"
+               android:layout_marginStart="24dp"
+               android:layout_marginTop="56dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:fontFamily="@font/helvetica_regular"
+              android:textStyle="bold"
+              android:textSize="24sp"
+              android:text="Код подтверждения"
+              android:textColor="@color/black"
+              android:layout_marginTop="108dp"
+              android:layout_marginStart="24dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:fontFamily="@font/poppins"
+              android:layout_marginTop="148dp"
+              android:layout_marginStart="24dp"
+              android:layout_marginEnd="23dp"
+              android:textSize="18sp"
+              android:text="Введите код, который мы отправили вам\nна номер"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text=" +7 900 000 00 00"
+              android:layout_marginTop="175dp"
+              android:textColor="#525A64"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:layout_marginStart="162dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent"
+                                               android:layout_height="56dp"
+                                               android:text="ВОЙТИ"
+                                               android:id="@+id/next"
+                                               android:textColor="@color/white"
+                                               android:textStyle="bold"
+                                               android:fontFamily="@font/poppins"
+                                               android:layout_marginTop="330dp"
+                                               android:layout_marginStart="24dp"
+                                               android:textSize="16sp"
+                                               android:layout_marginEnd="23dp"
+                                               android:background="@drawable/back_button"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="411dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:text="Запросить повторно"
+            android:textColor="#EE1F1F"/>
+
+
+</FrameLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="#F6F6F6"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:mask="http://schemas.android.com/tools">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:layout_marginTop="32dp"
+               android:layout_marginStart="21dp"
+               app:srcCompat="@drawable/right_arrow_1"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginTop="86dp"
+              android:layout_marginStart="21dp"
+              android:text="Карта"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:textColor="@color/black"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Введите информацию о вашей карте"
+              android:textColor="#525A64"
+              android:layout_marginTop="148dp"
+              android:layout_marginStart="24dp"
+              android:layout_marginEnd="24dp"
+              android:fontFamily="@font/poppins"
+              android:textSize="15sp"/>
+
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/back_card_buy"
+            android:layout_marginTop="205dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            mask:allowed_chars="1234567890"
+            mask:mask="#### - #### - #### - ####"
+            android:textColor="#1C2439"
+            android:textSize="15sp"
+            android:hint="0000000000000000"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="19dp"
+            android:textColorHint="#1C2439"
+            android:paddingStart="20dp"
+            android:gravity="center|center_horizontal|start"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Номер"
+              android:textColor="#757A86"
+              android:fontFamily="@font/poppins"
+              android:textSize="11sp"
+              android:layout_marginTop="217dp"
+              android:layout_marginStart="44dp"/>
+
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+            android:layout_width="166dp"
+            android:layout_height="56dp"
+            android:background="@drawable/back_card_buy"
+            android:layout_marginTop="277dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            mask:allowed_chars="1234567890"
+            mask:mask="##/##"
+            android:textColor="#1C2439"
+            android:textSize="15sp"
+            android:hint="0000"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="19dp"
+            android:textColorHint="#1C2439"
+            android:paddingStart="20dp"
+            android:gravity="center|center_horizontal|start"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Срок действия"
+              android:textColor="#757A86"
+              android:fontFamily="@font/poppins"
+              android:textSize="11sp"
+              android:layout_marginTop="289dp"
+              android:layout_marginStart="44dp"/>
+
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+            android:layout_width="165dp"
+            android:layout_height="56dp"
+            android:background="@drawable/back_card_buy"
+            android:layout_marginTop="277dp"
+            android:layout_marginStart="24dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="24dp"
+            mask:allowed_chars="1234567890"
+            mask:mask="###"
+            android:textColor="#1C2439"
+            android:textSize="15sp"
+            android:hint="000"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="19dp"
+            android:textColorHint="#1C2439"
+            android:paddingStart="20dp"
+            android:gravity="center|center_horizontal|start"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="CVV"
+              android:textColor="#757A86"
+              android:fontFamily="@font/poppins"
+              android:textSize="11sp"
+              android:layout_marginTop="289dp"
+              android:layout_marginEnd="144dp"
+              android:layout_gravity="end"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="43dp"
+                                               android:layout_marginStart="57dp"
+                                               android:layout_marginEnd="57dp"
+                                               android:layout_marginBottom="52dp"
+                                               android:layout_gravity="bottom"
+                                               android:background="@drawable/btn_go_cart"
+                                               android:text="Оплатить"
+                                               android:fontFamily="@font/helvetica_regular"
+                                               android:textSize="18sp"
+                                               android:textStyle="bold"
+                                               android:textColor="@color/white"
+                                               android:textAllCaps="false"/>
+
+
+</FrameLayout>

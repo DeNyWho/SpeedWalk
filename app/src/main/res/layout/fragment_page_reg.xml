@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#F4F4F4"
+             tools:context=".fragments.page_reg">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Выберите ваш любимый\nмагазин"
+              android:textColor="@color/black"
+              android:layout_marginTop="51dp"
+              android:layout_marginStart="29dp"
+              android:fontFamily="@font/helvetica_regular"
+              android:textStyle="bold"
+              android:textSize="24sp"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/one"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/back_reg"
+            android:layout_marginTop="174dp"
+            android:text="Перекресток"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="start|center"
+            android:paddingStart="22dp"
+            android:drawableEnd="@drawable/perekrestok_2014_2020_"
+            android:paddingEnd="22dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="14dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/back_reg"
+            android:layout_marginTop="265dp"
+            android:text="Пятерочка"
+            android:textColor="@color/black"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="start|center"
+            android:paddingStart="22dp"
+            android:drawableEnd="@drawable/_59329"
+            android:paddingEnd="22dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="14dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/three"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/back_reg"
+            android:layout_marginTop="356dp"
+            android:text="Магнит"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="start|center"
+            android:paddingStart="22dp"
+            android:drawableEnd="@drawable/_200px_new_logo_magnit"
+            android:paddingEnd="22dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="14dp"/>
+    
+    <ImageView
+            android:id="@+id/next"
+            android:layout_width="30dp"
+            android:layout_height="32dp"
+            android:background="@drawable/vector"
+            android:layout_marginTop="544dp"
+            android:layout_marginEnd="32dp"
+            android:layout_gravity="end"/>
+
+
+
+
+</FrameLayout>

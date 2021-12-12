@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#F6F6F6"
+             tools:context=".fragments.BackMenu">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Как вас зовут?"
+              android:fontFamily="@font/roboto"
+              android:textColor="#C4C4C4"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:layout_marginTop="33dp"
+              android:layout_marginStart="38dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="+7 911 345 68 73"
+              android:layout_marginTop="57dp"
+              android:layout_marginStart="38dp"
+              android:textColor="#333333"
+              android:fontFamily="@font/roboto_medium"
+              android:textSize="14sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="К текущему заказу"
+              android:layout_marginTop="115dp"
+              android:layout_marginStart="38dp"
+              android:fontFamily="@font/roboto_medium"
+              android:textColor="@color/black"/>
+
+
+    <ImageView android:layout_width="15sp" android:layout_height="15sp"
+               android:layout_marginTop="118dp"
+               android:id="@+id/cart"
+               android:layout_marginStart="173dp"
+               app:srcCompat="@drawable/vector"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginTop="232dp"
+                  android:orientation="vertical">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/delivery"
+                android:layout_height="wrap_content">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Доставка и оплата"
+                      android:layout_marginStart="38dp"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"/>
+
+            <View android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#C4C4C4"
+                  android:layout_marginTop="29dp"
+                  android:alpha="0.6"/>
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:background="@drawable/arrow_8"
+                       android:layout_marginEnd="24dp"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:id="@+id/support"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Служба поддержки"
+                      android:layout_marginStart="38dp"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"/>
+
+            <View android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#C4C4C4"
+                  android:layout_marginTop="29dp"
+                  android:alpha="0.6"/>
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:background="@drawable/arrow_8"
+                       android:layout_marginEnd="24dp"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:id="@+id/service"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="О сервисе"
+                      android:layout_marginStart="38dp"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"/>
+
+            <View android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#C4C4C4"
+                  android:layout_marginTop="29dp"
+                  android:alpha="0.6"/>
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:background="@drawable/arrow_8"
+                       android:layout_marginEnd="24dp"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Уведомления"
+                      android:layout_marginStart="38dp"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"/>
+
+            <View android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#C4C4C4"
+                  android:layout_marginTop="29dp"
+                  android:alpha="0.6"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="end"
+                    android:thumb="@drawable/custom_switch_thumb"
+                    android:layout_marginEnd="20dp"
+                    app:track="@drawable/custom_switch_track"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/lastOrders"
+                     android:layout_marginTop="15dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Последние заказы"
+                      android:layout_marginStart="38dp"
+                      android:fontFamily="@font/helvetica_regular"
+                      android:textSize="14sp"
+                      android:textColor="@color/black"/>
+
+            <View android:layout_width="match_parent" android:layout_height="2dp"
+                  android:background="#C4C4C4"
+                  android:layout_marginTop="29dp"
+                  android:alpha="0.6"/>
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:background="@drawable/arrow_8"
+                       android:layout_marginEnd="24dp"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

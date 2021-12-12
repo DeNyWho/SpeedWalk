@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:background="#F6F6F6"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".fragments.order_done">
+
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:layout_marginTop="32dp"
+               android:layout_marginEnd="38dp"
+               android:id="@+id/back"
+               android:layout_gravity="end"
+               app:srcCompat="@drawable/cancel__1__2"/>
+    
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_marginTop="86dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="150dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/check_2"
+            android:paddingTop="38dp"
+            android:paddingStart="38dp"
+            android:paddingEnd="38dp"
+            android:paddingBottom="38dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="20 850 ₽"
+              android:textColor="@color/black"
+              android:textSize="24sp"
+              android:fontFamily="@font/helvetica_regular"
+              android:layout_marginTop="282dp"
+              android:layout_gravity="center_horizontal"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Ваш заказ оформлен"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="18sp"
+              android:layout_marginTop="328dp"
+              android:layout_gravity="center_horizontal"
+              android:textColor="@color/black"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/check"
+              android:textColor="#333333"
+              android:fontFamily="@font/helvetica_regular"
+              android:textSize="14sp"
+              android:layout_marginTop="366dp"
+              android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="43dp"
+                                               android:layout_marginStart="57dp"
+                                               android:layout_marginEnd="57dp"
+                                               android:layout_marginBottom="52dp"
+                                               android:layout_gravity="bottom"
+                                               android:id="@+id/next"
+                                               android:background="@drawable/btn_go_cart"
+                                               android:text="Показать карту"
+                                               android:fontFamily="@font/helvetica_regular"
+                                               android:textSize="18sp"
+                                               android:textStyle="bold"
+                                               android:textColor="@color/white"
+                                               android:textAllCaps="false"/>
+</FrameLayout>

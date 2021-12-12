@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#F6F6F6"
+             tools:context=".fragments.Service">
+
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:layout_marginTop="32dp"
+               android:id="@+id/go_back"
+               android:layout_marginStart="22dp"
+               app:srcCompat="@drawable/right_arrow_1"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="О сервисе"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:fontFamily="@font/roboto"
+              android:layout_marginTop="26dp"
+              android:layout_marginStart="54dp"
+              android:textColor="#C4C4C4"/>
+
+
+    <ImageView
+            android:layout_marginTop="27dp"
+            android:id="@+id/go_menu"
+            android:layout_marginEnd="28dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cancel__1__2"/>
+</FrameLayout>

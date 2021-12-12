@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <FrameLayout
+            android:layout_width = "match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bottom_shi5t"
+            android:layout_marginTop="45dp">
+
+        <ImageView
+                android:layout_width="214dp"
+                android:layout_height="214dp"
+                android:layout_marginTop="77dp"
+                android:background="@drawable/pngegg__5__1"
+                android:layout_gravity="center_horizontal"/>
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Хлеб Тартин деревенский 400гр"
+                android:fontFamily="@font/roboto"
+                android:textSize="13sp"
+                android:textColor="#333333"
+                android:layout_marginTop="339dp"
+                android:layout_marginStart="33dp"/>
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="139.99 ₽"
+                  android:textColor="#CA0000"
+                  android:layout_marginTop="375dp"
+                  android:layout_marginStart="33dp"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/roboto_medium"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="/ 1 шт"
+                  android:layout_marginTop="375dp"
+                  android:layout_marginStart="115dp"
+                  android:textColor="#C4C4C4"
+                  android:fontFamily="@font/roboto_medium"
+                  android:textSize="18sp"/>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="#797979"
+                  android:fontFamily="@font/roboto"
+                  android:textSize="12sp"
+                  android:layout_marginTop="405dp"
+                  android:layout_marginStart="33dp"
+                  android:text="178 ₽"/>
+        
+        <View android:layout_width="32dp" android:layout_height="0.3dp"
+              android:layout_marginTop="413dp"
+              android:background="#797979"
+              android:layout_marginStart="32dp"/>
+        
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"
+              android:layout_marginTop="432dp"
+              android:layout_marginStart="33dp"
+              android:layout_marginEnd="33dp"
+              android:background="#E5E5E5"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Информация"
+                  android:fontFamily="@font/roboto_medium"
+                  android:textSize="12sp"
+                  android:layout_marginTop="446dp"
+                  android:layout_marginStart="33dp"
+                  android:textColor="@color/black"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Срок годности"
+                  android:layout_marginTop="473dp"
+                  android:layout_marginStart="33dp"
+                  android:textColor="@color/black"
+                  android:fontFamily="@font/roboto"
+                  android:textSize="12sp"/>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Энерг. ценность на\n100 гр"
+                  android:layout_marginTop="500dp"
+                  android:layout_marginStart="33dp"
+                  android:textColor="@color/black"
+                  android:fontFamily="@font/roboto"
+                  android:textSize="12sp"/>
+        
+        <View android:layout_width="match_parent" android:layout_height="87dp"
+              android:layout_gravity="bottom"
+              android:background="#3F3C3C"/>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Итого: 139.99 ₽ "
+                  android:textColor="@color/white"
+                  android:fontFamily="@font/roboto_medium"
+                  android:textSize="14sp"
+                  android:layout_marginBottom="59dp"
+                  android:layout_gravity="bottom"
+                  android:layout_marginStart="33dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:fontFamily="@font/roboto"
+                  android:text="1 шт"
+                  android:id="@+id/text"
+                  android:textSize="14sp"
+                  android:textColor="@color/white"
+                  android:layout_gravity="bottom"
+                  android:layout_marginBottom="24dp"
+                  android:layout_marginStart="90dp"/>
+        
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="178 ₽"
+                  android:layout_marginStart="155dp"
+                  android:layout_marginBottom="61dp"
+                  android:textColor="@color/white"
+                  android:layout_gravity="bottom"
+                  android:fontFamily="@font/roboto_light"
+                  android:textSize="11sp"/>
+        
+        <View android:layout_width="30dp" android:layout_height="0.5dp"
+              android:layout_marginBottom="67dp"
+              android:background="@color/white"
+              android:layout_gravity="bottom"
+              android:layout_marginStart="154dp"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="31dp"
+                android:id="@+id/minus"
+                android:layout_height="31dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/btn_item"
+                android:drawableTop="@drawable/minus_sign"
+                android:paddingTop="6dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:id="@+id/plus"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="153dp"
+                android:background="@drawable/btn_item"
+                android:drawableTop="@drawable/plus_positive_add_mathematical_symbol"
+                android:paddingTop="6dp"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="154dp"
+                android:layout_height="31dp"
+                android:id="@+id/cart"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_gravity="bottom|end"
+                android:background="@drawable/btn_go_cart"
+                android:text="В корзину"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="14sp"
+                android:textAllCaps="false"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+    </FrameLayout>
+
+</FrameLayout>

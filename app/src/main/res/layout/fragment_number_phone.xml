@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:background="#F4F4F4"
+             android:layout_height="match_parent" xmlns:mask="http://schemas.android.com/apk/res-auto"
+             tools:context=".fragments.NumberPhone">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите номер телефона"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginTop="47sp"
+            android:layout_marginStart="25dp"/>
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите номер телефона, мы пришлем на\nнего код верификации"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="87dp"
+            android:layout_marginStart="24dp"/>
+    
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="42dp"
+            android:layout_height="wrap_content"
+            mask:allowed_chars="1234567890"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="24sp"
+            android:backgroundTint="@color/white"
+            mask:mask="+7 ### ### ## ##"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/back_button"
+            android:text="Войти"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_marginTop="366dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"/>
+
+    <FrameLayout
+            android:layout_width="53dp"
+            android:layout_height="31dp"
+            android:background="@drawable/or_btn"
+            android:layout_marginTop="350dp"
+            android:layout_gravity="center_horizontal">
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="или"
+                android:fontFamily="@font/pop_med"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/back_btn_white"
+            android:layout_marginTop="413dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp">
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="С помощью"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:text="Google"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="17dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="73dp"/>
+        
+        <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                   android:background="@drawable/google"
+                   android:layout_marginTop="18dp"
+                   android:layout_marginBottom="18dp"
+                   android:layout_marginStart="18dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/back_btn_white"
+            android:layout_marginTop="485dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="С помощью"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:text="Apple"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="17dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="86dp"/>
+
+        <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                   android:background="@drawable/apple"
+                   android:layout_marginTop="18dp"
+                   android:layout_marginBottom="18dp"
+                   android:layout_marginStart="18dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/back_btn_white"
+            android:layout_marginTop="557dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="С помощью"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:text="Facebook"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="17dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="52dp"/>
+
+        <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                   android:background="@drawable/facebook"
+                   android:layout_marginTop="18dp"
+                   android:layout_marginBottom="18dp"
+                   android:layout_marginStart="18dp"/>
+
+    </FrameLayout>
+            
+
+</FrameLayout>

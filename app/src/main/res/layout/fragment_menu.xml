@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#F4F4F4"
+             tools:context=".fragments.Menu">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каталог"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="94dp"
+            android:layout_marginStart="21dp"/>
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:layout_marginStart="21dp"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="#333333"
+            android:text="Тучков переулок, 3"/>
+
+
+    <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="148dp"
+            app:srcCompat="@drawable/pencil__1__1"/>
+    <ImageView
+            android:id="@+id/next_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/menu_2"
+            android:layout_marginTop="33dp"
+            android:layout_marginStart="21dp"/>
+    
+    <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ellipse_6"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="29dp"
+            android:layout_gravity="end"/>
+    
+    <ImageView
+            android:id="@+id/cart"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:background="@drawable/cart"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="27dp"
+            android:layout_gravity="end"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:hint="Поиск продуктов..."
+            android:background="@drawable/back_upres"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="143dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="12sp"
+            android:textColorHint="#797979"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/search"
+            android:paddingStart="12dp"
+            android:drawablePadding="8dp"/>
+    
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                        android:id="@+id/one"
+                        android:layout_width="150dp"
+                        android:background= "@drawable/back_menu"
+                        android:layout_height="109dp">
+
+
+                    <ImageView
+                            android:layout_marginTop="59dp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginBottom="12dp"
+                            android:src="@drawable/disck"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/black"
+                            android:tintMode="multiply"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Скидки и акции"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="13dp"
+                            android:textSize="14sp"/>
+
+                </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/three"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="120dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Молочные\nпродукты и\nяйца"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#3008C7E1"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#3017AEC2"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="55dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="7dp"
+                        android:layout_marginBottom="12dp"
+                        android:src="@drawable/pngegg__1_"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/five"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="240dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Мясные\nпродукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2BF80FF"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2933EFF"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="51dp"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="12dp"
+                        android:src="@drawable/pngegg__3_"
+                        android:layout_width="75dp"
+                        android:layout_height="51dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/seven"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="360dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Овощи и\nфрукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2FFA825"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2CA6D00"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="59dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginBottom="12dp"
+                        android:src="@drawable/pngegg__5_"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/nine"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="480dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Овощи и\nфрукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/eleven"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="600dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Кофе и\nчай"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+            </FrameLayout>
+
+                <FrameLayout
+                        android:id="@+id/two"
+                        android:layout_gravity="end"
+                        android:layout_width="150dp"
+                        android:background= "@drawable/back_menu"
+                        android:layout_height="109dp">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Овощи и\nфрукты"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="13dp"
+                            android:textSize="14sp"/>
+
+                    <View
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:background="@drawable/menu_items"
+                            android:backgroundTint="#B2FFF281"
+                            android:layout_marginTop="54dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_gravity="end"/>
+
+                    <View
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:layout_marginTop="66dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/menu_items"
+                            android:backgroundTint="#B2F2DE23"
+                            android:layout_gravity="end"/>
+
+                    <ImageView
+                            android:layout_marginTop="59dp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginBottom="12dp"
+                            android:src="@drawable/pngegg"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"/>
+
+                </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/four"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="120dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Бакалея"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#3008E137"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#30058D23"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginBottom="12dp"
+                        android:src="@drawable/pngegg__2_"
+                        android:layout_width="56dp"
+                        android:layout_height="57dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/six"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="240dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Замороженные\nпродукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B23EA0FB"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B21172CB"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="44dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="3dp"
+                        android:src="@drawable/pngegg__4_"
+                        android:layout_width="65dp"
+                        android:layout_height="72dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/eight"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="360dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Готовая еда"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2FF2525"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_gravity="end"/>
+
+                <View
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/menu_items"
+                        android:backgroundTint="#B2CA0000"
+                        android:layout_gravity="end"/>
+
+                <ImageView
+                        android:layout_marginTop="44dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="3dp"
+                        android:src="@drawable/pngegg__6_"
+                        android:layout_width="65dp"
+                        android:layout_height="72dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/ten"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="480dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Рыба и\nморепродукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+            </FrameLayout>
+            <FrameLayout
+                    android:id="@+id/twelve"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="600dp"
+                    android:background= "@drawable/back_menu"
+                    android:layout_height="109dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Рыба и\nморепродукты"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="13dp"
+                        android:textSize="14sp"/>
+
+            </FrameLayout>
+
+
+
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>
