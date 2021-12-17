@@ -10,20 +10,24 @@
     <fragment android:id="@+id/numberPhone2" android:name="com.example.speedwalk.fragments.NumberPhone"
               android:label="fragment_number_phone" tools:layout="@layout/fragment_number_phone">
         <action android:id="@+id/action_numberPhone2_to_codeAccept" app:destination="@id/codeAccept"/>
+        <argument android:name="number" app:argType="string"/>
     </fragment>
     <fragment android:id="@+id/codeAccept" android:name="com.example.speedwalk.fragments.CodeAccept"
               android:label="fragment_code_accept" tools:layout="@layout/fragment_code_accept">
         <action android:id="@+id/action_codeAccept_to_page_reg" app:destination="@id/page_reg"/>
+        <argument android:name="number" app:argType="string"/>
     </fragment>
     <fragment android:id="@+id/page_reg" android:name="com.example.speedwalk.fragments.page_reg"
               android:label="fragment_page_reg" tools:layout="@layout/fragment_page_reg">
         <action android:id="@+id/action_page_reg_to_menu" app:destination="@id/menu"/>
+        <argument android:name="token" app:argType="string"/>
     </fragment>
     <fragment android:id="@+id/menu" android:name="com.example.speedwalk.fragments.Menu" android:label="fragment_menu"
               tools:layout="@layout/fragment_menu">
         <action android:id="@+id/action_menu_to_backMenu" app:destination="@id/backMenu"/>
         <action android:id="@+id/action_menu_to_onItem" app:destination="@id/onItem"/>
         <action android:id="@+id/action_menu_to_cart" app:destination="@id/cart"/>
+        <argument android:name="token" app:argType="string"/>
     </fragment>
     <fragment android:id="@+id/backMenu" android:name="com.example.speedwalk.fragments.BackMenu"
               android:label="fragment_back_menu" tools:layout="@layout/fragment_back_menu">
@@ -38,6 +42,7 @@
         <action android:id="@+id/action_onItem_to_menu" app:destination="@id/menu"/>
         <action android:id="@+id/action_onItem_to_dialog" app:destination="@id/dialog"/>
         <action android:id="@+id/action_onItem_to_dialog2" app:destination="@id/dialog"/>
+        <action android:id="@+id/action_onItem_to_cart3" app:destination="@id/cart"/>
     </fragment>
     <action android:id="@+id/action_onItem_to_cart2" app:destination="@id/cart"/>
 

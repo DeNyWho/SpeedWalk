@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+
+    <FrameLayout
+            android:id="@+id/one"
+            android:layout_width="150dp"
+            android:background= "@drawable/back_menu"
+            android:layout_height="109dp">
+
+
+        <ImageView
+                android:id="@+id/image"
+                android:layout_marginTop="59dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/disck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/black"
+                android:tintMode="multiply"/>
+        <View
+                android:id="@+id/firstView"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:background="@drawable/menu_items"
+                android:backgroundTint="#3008C7E1"
+                android:layout_marginTop="54dp"
+                android:layout_marginEnd="22dp"
+                android:layout_gravity="end"/>
+
+        <View
+                android:id="@+id/secondView"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/menu_items"
+                android:backgroundTint="#3017AEC2"
+                android:layout_gravity="end"/>
+
+        <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Скидки и акции"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="13dp"
+                android:textSize="14sp"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
